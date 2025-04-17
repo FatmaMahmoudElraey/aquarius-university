@@ -1,0 +1,129 @@
+
+
+/* sign in page================================================================= */
+/* .signup-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.signup-section.active-form{
+    display: flex;
+}
+.login-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.login-section.active-form{
+    display: flex;
+}
+    
+.active-form{
+    display: block;
+} */
+/* 
+.signup-section, .login-section{
+    display: none;
+}
+.signup-section.active-form{
+    display: block;
+}
+.login-section.active-form{
+    display: block;
+} */
+
+#wrongpass, #wrongpasss, #notExist, #emailexist, #notvalid{
+    display: none;
+}
+#wrongpass.active, #wrongpasss.active, #notExist.active , #emailexist.active , #notvalid.active{
+    display: block;
+}
+
+
+
+
+.logo-img img{
+    width: 150px;
+}
+.sign{
+    min-height:100vh;
+    background-color: var(--mainDcolor);
+}
+.w-90{
+    width: 90%;
+    margin: auto;
+}
+.sign .img-sign{
+    position: relative;
+    z-index: 2;
+    padding: 20px 30px 10px;
+}
+.sign .img-sign .sign-caricature img{
+    max-width: 85%;
+    min-width: 350px;
+    transition: all 0.5s;
+}
+.sign .img-sign .sign-caricature img:hover{
+    transform: scale(1.1,1.1);
+}
+.sign .img-sign .logo img{
+    width: 120px;
+    height: 110px;
+}
+
+
+.sign-form {
+    position: relative;
+    z-index: 2;
+    background-color: #ECECEC;
+    border-radius: 20px;
+    padding: 20px 30px 10px;
+}
+.sign-form h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 45px;
+    color: var(--mainColor);
+    font-family: 'Montserrat';
+    text-transform: capitalize;
+}
+
+.sign-form label {
+    font-weight: 600;
+    margin-top: 1.25rem;
+}
+
+.sign-form input {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.sign-form .already-have p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sign-form .already-have p a {
+    color: var(--mainColor);
+}
+
+.submit:hover{
+    color: var(--mainColor);
+}
+
+.form-check-input{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.form-check-input:checked {
+    background-color: var(--mainColor);
+    border-color: var(--mainColor);
+    border-radius: 50%;
+}

@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Our University Site</title>
+        <meta name="author" content="Fatma Mahmoud">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- remix icon  -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!-- font awesome icons -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <!-- bootstrap css 5.1.3 -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--main css file -->
+        <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+        <link rel="stylesheet" type="text/css" href="css/loginRegister.css"/>
+
+    </head>
+
+    <body>
+
+<!-- top section -->
+<div class="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="language">
+                    <ul class="flat-information">
+                        <li class="email"><i class="ri-mail-fill"></i><a href="fatmaelraey.22@gmail.com">fatmaelraey.22@gmail.com</a></li>
+                        <li class="phone"><i class="ri-phone-fill"></i><a href="01110843514">+20 1110843514</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="top-navigator">
+                    <ul>
+                        <li class="login-nav-btn"><a href="login.html">Login</a></li>                                    
+                        <li class="signup-nav-btn"><a href="register.html">Register</a></li>
+                    </ul>
+                </div>           
+            </div>
+        </div>       
+    </div>
+</div>
+<!-- end of top section===================================== -->
+
+        <!-- section Sign In -->
+          
+        <section id="signup-section" class="signup-section sign">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-6  d-flex justify-content-center align-items-center">
+                    <div class="img-sign px-2">
+                        <div class="sign-caricature   px-4">
+                            <img src="images/whyus.png" alt="sign-caricature">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <div class="sign-form pt-5 pb-4">
+                        <h2 class="text-center mb-3">Register</h2>
+
+
+                        <form action="" class="form-signup">
+                            <label for="firstName">First Name</label>
+                            <input required id="firstName" placeholder="first name ..." type="text" class="form-control">
+
+                            <label for="lastName">Last Name</label>
+                            <input required id="lastName" placeholder="last name ..." type="text" class="form-control">
+
+                            <label for="email">Email address</label>
+                            <input required id="email" placeholder="Email Address ..." type="text" class="form-control">
+                            <p id="emailexist">Email is registered before..</p>   
+                            <p id="notvalid">email is not valid</p>  
+                            
+                            <label for="password">Create Password</label>
+                            <input required id="password" placeholder="password..." type="text" class="form-control">
+                            <p id="wrongpass"> password must contain at least one character</p>
+
+                            
+                            <label for="agree">
+                                <input type="checkbox" id="agree" class="form-check-input">
+                                I agree to terms and conditions
+                            </label> <br><br>
+
+                            <button id="submitAccount" class="submit btn main-btn py-2 px-4 w-60 mx-auto">Register Account</button>
+
+                           
+                        </form>
+
+
+
+                          <!-- <form method="POST" action="#">
+                            <label for="text-signin">Login Email</label>
+                            <input id="email" name="email" type="text" class="form-control" required autocomplete="email" autofocus placeholder="Login Email" value="">
+                            <label for="text-signin">National ID</label>
+                            <input type="text" class="form-control" required autofocus placeholder="Enter your ID" value="">
+                        <label for="password-signin">Password</label>
+                        <input id="password" name="password" type="password" class="form-control" required placeholder="Password">
+                        <label for="password-signin">Confirm Password</label>
+                        <input id="password" name="password" type="password" class="form-control" required placeholder="Password">
+
+                    
+                     
+                    <div class="form-check checkbox">
+                       
+                        <label class="form-check-label" for="remember" style="vertical-align: middle;">
+                            <input class="form-check-input" name="remember" type="checkbox" id="remember" style="vertical-align: middle;" /> Remember me
+                        </label>
+                   </div>
+                
+                        
+                        <p id="alertSignin" class="fs-6 mb-0 mt-3 w-75 text-center mx-auto"></p>
+                    <div class="text-center mt-3 mb-2">
+                        <button type="submit" class="submit btn main-btn py-2 px-4 w-60 mx-auto">
+                            Register
+                        </button>
+                    </div>
+                        <div class="already-have text-center w-90 mx-auto">
+                            <p>   Have an account ? <a href="login.html">   Login </a></p>
+                        </div>
+                        </form> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+    <script src="js/formValidate.js"></script>
+    </body>
+</html>

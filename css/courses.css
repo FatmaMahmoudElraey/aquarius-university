@@ -1,0 +1,191 @@
+
+.cources{
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+margin: 100px 0;
+text-align: center;
+}
+.cources h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+.cources p{
+    font-size: 16px;
+    color: #777;
+    margin-top: 15px;
+}
+.roww{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position:relative;
+    top: 75px;
+    margin-bottom: 75px;
+}
+.column{
+    flex-basis: 50%;
+    background-color: rgba(83,188,241,0.5);
+    border-radius: 20px;
+    padding: 30px 10px;
+    transition: 0.6s;
+}
+.column:hover{
+    box-shadow: 0 0 20px 0 rgb(0, 106, 255);
+}
+.compus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px 0;
+}
+.compus h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+.compus p{
+    font-size: 16px;
+    color:#777;
+    margin-top: 15px;
+}
+.column2{
+    flex-basis: 31%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+img{
+    width: 100%;
+}
+.heading{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.7s;
+}
+.heading h3 {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    font-size: 25px;
+    font-weight: 500px;
+    color: white;
+    opacity: 0;
+    transition: 0.7s;
+}
+.heading:hover{
+    background: rgba(83,188,241,0.5);
+}
+.heading:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+.facilities h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+.facilities p{
+    font-size: 16px;
+    color: #777;
+    margin-top: 15px;
+}
+.facilities{
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+margin: 100px 0;
+text-align: center;
+}
+.column3{
+    flex-basis: 32%;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.column3 img{
+    width: 100%;
+    min-height: 50vh;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.student{
+    display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+margin-top: 100px ;
+text-align: center;
+}
+.student h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+.student p{
+    font-size: 16px;
+    color: #777;
+    margin-top: 15px;
+}
+.review{
+    flex-basis: 44%;
+    display: flex;
+    padding: 25px;
+    position: relative;
+    text-align: left;
+    width: 90%;
+    border-radius: 20px;
+    margin: 15px;
+    background: rgba(141,190,239,0.4);
+}
+.review img{
+    height: 40px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 30PX;
+    margin-left: 10PX;
+}
+.enroll{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 260px 0;
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/courses/Online-courses.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.enroll h1{
+    color: white;
+    font-size: 50px;
+    margin: 20px;
+}
+.btn{color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    }
+.btn:hover{
+    background: rgba(0,106,255);
+    border: rgb(0, 106, 255);
+    transition: 0.5s;
+}
+
+
+
+

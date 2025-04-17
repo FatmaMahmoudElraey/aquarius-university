@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="utf-8">
+    <title>Our University Site</title>
+    <meta name="author" content="Fatma Mahmoud">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- remix icon  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+    <!-- bootstrap css 5.1.3 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--main css file -->
+    <link rel="stylesheet" type="text/css" href="css/mainStyle.css">      
+<style>
+
+
+    .services_section {
+    width: 100%;
+    display: flex;
+}
+.services_section_2 {
+    width: 100%;
+    display: flex;
+}
+.services_taital{
+    width: 100%;
+    font-size: 40px;
+    color: #170e09;
+    text-align: center;
+    font-weight: bold;
+}
+.services_taital::after {
+    content: '';
+    position: relative;
+    width: 40px;
+    height: 17px;
+    background-color: #fcce2d;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+.gallery_main {
+    width: 100%;
+    float: left;
+}
+
+.image_main {
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+
+.image_8 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.text_main {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 5;
+}
+
+.image_main:hover .image_8 {
+    opacity: 1;
+}
+
+.image_main:hover .text_main {
+    opacity: 5;
+}
+.image_main:hover .seemore_text {
+    color: #ffffff;
+}
+
+.seemore_text {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.image_main::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    top: 0px;
+    display: none;
+}
+
+.image_main:hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    top: 0px;
+    display: block;
+}
+</style>
+   </head>
+   <body>
+        <!-- ready -->
+        <div id="ready">
+            <i class="fa fa-spinner fa-5x fa-spin"></i>
+           </div>
+    
+           <!-- back to top -->
+           <a id="topBtn" class="position-fixed bottom-0 end-0 translate-middle text-white"><i class="fa-solid fa-chevron-up fs-3 p-2 main-bg rounded-circle"></i></a>
+    
+    
+            <!-- top section -->
+            <div class="top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="language">
+                                    <ul class="flat-information">
+                                        <li class="email"><i class="ri-mail-fill"></i><a href="fatmaelraey.22@gmail.com">fatmaelraey.22@gmail.com</a></li>
+                                        <li class="phone"><i class="ri-phone-fill"></i><a href="01110843514">+20 1110843514</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="top-navigator">
+                                    <ul>
+                                        <li class="login-nav-btn"><a href="login.html">Login</a></li>                                    
+                                        <li class="signup-nav-btn"><a href="register.html">Register</a></li>
+                                    </ul>
+                                </div>           
+                            </div>
+                        </div>       
+                    </div>
+            </div>
+    <!-- end of top section===================================== -->
+    
+    
+    <div class="bg-light">
+      <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/llogo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link " href="blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="contact.html">Contacts</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link " href="register.html">Profile</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </div>
+    </div>
+
+    <section class="breadcrumb" style="background-position: 50% 36px;"> 
+        <div class="overlay">
+        </div>
+        <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                <div class="page-title-heading">
+                  <h1 class="title text-center text-white">Student Profile</h1>
+                  <div class="breadcrumbs text-center">
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li>profile</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- student service section------------------- -->
+      <div class="services_section">
+         <div class="container">
+            <h1 class="services_taital"><span style="color: #ffc107">Student</span> Services</h1>
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="image_main">
+                        <img src="images/studentService/img-2.png" class="image_8" style="width:100%">
+                        <div class="text_main">
+                           <div class="seemore_text">Student Email</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="image_main">
+                        <img src="images/studentService/img-3.png" class="image_8" style="width:100%">
+                        <div class="text_main">
+                           <div class="seemore_text">Surveys</div>
+                        </div>
+                     </div>
+                  </div>
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="image_main">
+                        <img src="images/studentService/img-4.png" class="image_8" style="width:100%">
+                        <div class="text_main">
+                           <div class="seemore_text">Military Education Department
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="image_main">
+                        <img src="images/studentService/img-5.png" class="image_8" style="width:100%">
+                        <div class="text_main">
+                           <div class="seemore_text">English Speaking</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>            
+      </div>
+
+          <!-- footer -->
+    <footer id="footer" class="footer py-5 position-relative">
+        <a id="btnTopFooter" class="d-flex justify-content-center align-items-center position-absolute top-0 end-0 translate-middle text-white">
+          <i class="fa-solid fa-chevron-up"></i>
+        </a>
+        <div class="container">
+            <div class="row gy-5">
+            <div class="col-md-12">
+              <div class="d-flex justify-content-center align-items-center logo-img">
+                <img src="images/llogo.png" alt="University logo">
+              </div>
+            </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="logo-footer">
+                        <h3 class="mb-4 text-white">Aquarius University</h3>
+                        <p>Vut sagittis a, Cum duis nunc in, dignissim, porta porta enim, proin turpis egestas!, scelerisque!</p>
+                        <h4 class="mb-4">Follow us </h4>
+                        <div class="icons-footer d-flex align-items-center">
+                            <a target="_blank" href="https://www.facebook.com/AquariusSolutionksa"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a target="_blank" href="https://twitter.com/SolutionAquarius"><i class="fa-brands fa-twitter"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/Aquariussolutionksa/"><i class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/Aquarius-solution-ksa-12717623b/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="navigate">
+                        <h4 class="mb-4">Information</h4>
+                        <div class="links-navigate d-flex justify-content-center flex-column">
+                            <a href="#why">Why Aquiruas university</a>
+                            <a href="#addmission">Addmission</a>
+                            <a href="#calender">Academic Calender</a>
+                            <a href="#eventList">Event List</a>
+                            <a href="#Hostel">Hostel & Dinning</a>
+                            <a href="#timetable">TimeTable</a>
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="col-md-6 col-lg-3">
+                    <div class="navigate">
+                        <h4 class="mb-4">Contact us</h4>
+                        <div class="links-navigate d-flex justify-content-center flex-column">
+                            <a target="_blank" href="tel:+201110843514"><span><i class="fa-solid fa-phone"></i></span> +201110843514</a>
+                            <a target="_blank" href="https://wa.me/+201110843514"><span><i class="fa-brands fa-whatsapp"></i></span> +201110843514</a>
+                            <a target="_blank" href="https://Aquarius.com/"><span><i class="fa-solid fa-globe"></i></span>Aquarius.com</a>
+                            <a target="_blank" href="https://Aquariussolution@gmail.com/"><span><i class="fa-regular fa-envelope"></i></span> Aquarius@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="subscribe">
+                        <h4 class="mb-4">join us</h4>
+                        <p>Enter your email address to get the latest University news, special events and student activities delivered right to your inbox.</p>
+                        <input id="emailSubscribe" type="email" name="email-subscibe" required class="form-control py-2 mx-auto bg-white" placeholder="Enter your email">
+                        <p id="alertSubscribe" class="fs-6 mb-0 mt-3 w-75 text-center mx-auto"></p>
+                        <input id="subscribe" type="button" class="form-control w-50 mt-3 main-color semi-bold py-2 bg-white" value="Subscribe">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+
+   </body>
+</html>
+
